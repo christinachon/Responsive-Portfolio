@@ -147,7 +147,6 @@ h3 {
     border-top: 8px solid #99ccbb;
     color:white;
     padding: 15px 0px;
-    position:relative;
     margin-top: 20px;
     position: fixed;
     left: 0;
@@ -155,19 +154,23 @@ h3 {
 }
 
 /* Media Screen tags below */
-@media screen and (min-width: 980px) {
+@media screen and (max-width: 980px) {
     .topnav ul{
         margin: 0;
+        width: 100%;
     }
     .container {
-        margin:20px;
+        margin:10px 10px 70px 10px;
+        width: 550px;
+        height: 600px;
     }
+
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     
 }
 
 @media screen and (max-width: 640px) {
     
-}
+} */
