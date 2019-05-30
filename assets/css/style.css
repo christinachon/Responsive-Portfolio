@@ -155,8 +155,13 @@ h3 {
 }
 
 /* Media Screen tags below */
-@media screen and (max-width: 980px) {
-    
+@media screen and (min-width: 980px) {
+    .topnav ul{
+        margin: 0;
+    }
+    .container {
+        margin:20px;
+    }
 }
 
 @media screen and (max-width: 768px) {
