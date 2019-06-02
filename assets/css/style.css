@@ -31,6 +31,10 @@ body {
      position: relative;
      bottom: 15px;
  }
+ img{
+     float:left;
+     margin-right: 15px;
+ }
 
 .navbg {
     background: white;
@@ -160,9 +164,9 @@ h3 {
         width: 100%;
     }
     .container {
-        margin:10px 10px 70px 10px;
+        margin:20px 10px 70px 10px;
         width: 550px;
-        height: 600px;
+        height: auto;
     }
 
 }
@@ -173,38 +177,54 @@ h3 {
         width: 100%;
     }
     .container {
-        margin:10px 10px 70px 10px;
+        margin:20px 10px 70px 10px;
         width: 550px;
-        height: 600px;
+        height: auto;
     }    
 }
 
 @media screen and (max-width: 640px) {
     .navbg{
-        height: 175px;
+        height: 100px;
     }
     .topnav ul{
-        width: 100px;
-        height: 175px;
-        margin: 0;
+        height: 100px;
+        margin: 0, auto;
         overflow: visible;
+
     }
     .topnav{
-        height: 200px;
+        height: 125px;
     }
     .topnav li a{
-        display: block;
-        position: relative;
-        float: left;
+        margin: 0, auto;
         padding: 10px;
+        width: 25%;
+
     }
-    .divider{
-        display: none;
-    }
+.divider{
+    padding:9px;
+}
 
     #logo {
-        width: 200px;
-        margin: 0 auto;
+        width: 100;
+        margin: 0, auto;
+        float:none;
+    }
+
+    .container {
+        margin: auto;
+        width: 450px;
+        height: auto;
+    }   
+
+    img{
+        float:none;
+        margin: auto;
+        display:block;
+        width: 100%;
+        height: auto;
+
     }
     
 }
